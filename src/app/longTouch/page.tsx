@@ -1,5 +1,7 @@
-const page = () => {
-  return <div>page</div>;
+import LongTouch from "../components/LongTouch";
+
+const Page = () => {
+  return <LongTouch />;
 };
 
-export default page;
+export default Page;
