@@ -20,16 +20,20 @@ export default function LongTouch() {
 
   return (
     <section>
-      <h1>useLongPress</h1>
+      <h1 className="text-gray-300">useLongPress</h1>
       <button {...attrs} className="primary">
         Press Me
       </button>
+
       {isOpen && (
-        <dialog>
-          <button onClick={() => setIsOpen(false)}>X</button>
+        // <dialog>
+        <div>
+          <button onClick={() => setIsOpen(false)}>❌</button>
           <h2>Modal</h2>
-          <p>This is a modal triggered by a long press.</p>
-        </dialog>
+        </div>
+
+        //   <p>This is a modal triggered by a long press.</p>
+        // </dialog>
       )}
     </section>
   );
