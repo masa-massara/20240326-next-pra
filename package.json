@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fullcalendar/core": "^6.1.11",
+    "@fullcalendar/daygrid": "^6.1.11",
+    "@fullcalendar/react": "^6.1.11",
     "@uidotdev/usehooks": "^2.4.1",
     "next": "14.1.4",
     "react": "^18",
